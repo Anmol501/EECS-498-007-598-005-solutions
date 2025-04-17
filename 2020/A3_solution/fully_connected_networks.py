@@ -1,7 +1,3 @@
-"""
-If this solution was useful to you and you want to thank me, please give me a star:
-https://github.com/iMeleon/EECS-498-007-598-005-solutions
-"""
 
 """
 Implements fully connected networks in PyTorch.
@@ -724,7 +720,4 @@ class Dropout(object):
     elif mode == 'test':
       dx = dout
     return dx
-"""
-If this solution was useful to you and you want to thank me, please give me a star:
-https://github.com/iMeleon/EECS-498-007-598-005-solutions
 """
